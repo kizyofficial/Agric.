@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+#logo p {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1rem;
+  color: rgba(23, 90, 87, 1);
+  margin-top: 1.2rem;
+}
+#nav-links a {
+  color: rgba(20, 81, 78, 0.8);
+  font-weight: 600;
+  line-height: 21px;
+  font-size: 14px;
+}
+.dropdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#nav-buttons .btn {
+  background-color: rgba(45, 182, 174, 1);
+  padding: 17px, 76px, 17px, 76px;
+  border-radius: 12px;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+}
+#nav-buttons .second-btn {
+  background-color: white;
+  border: 1px solid rgba(31, 124, 119, 1);
+  padding: 17px, 76px, 17px, 76px;
+  color: rgba(31, 124, 119, 1);
+}
+#hero-texts h1 {
+  font-weight: 700;
+  /* font-size: 60px; */
+  line-height: 67.2px;
+  color: rgba(31, 124, 119, 1);
+}
+#hero-texts p {
+  color: rgba(13, 52, 50, 1);
+  line-height: 30px;
+  font-size: 20px;
+  font-weight: 600;
+}
+#hero-button button {
+  background-color: rgba(45, 182, 174, 1);
+  border-radius: 12px;
+  padding: 17px, 76px, 17px, 76px;
+  color: white;
+  font: 20px;
+}
+#featured-3{
+  background: linear-gradient(to bottom, rgba(45, 182, 174, 1) 88%, white 20%);
+}
+#feature-column{
+  /* padding: 100px, 14px, 70px, 14px; */
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  box-sizing: border-box;
+}
+#features-headers{
+  /* font-size: 22px; */
+  font-weight: 700;
+  /* line-height: 29.37px; */
+  color: rgba(25, 100, 96, 1);
+}
+#features-texts{
+  /* line-height: 24px; */
+  color: rgba(25, 100, 96, 1);
+  /* font-size: 18px; */
+  font-weight: 500px;
+}
+.centered-hero-contents{
+  margin: 50px auto;
+  max-width: 900px;
+}
+.centered-hero-header{
+  text-align: center;
+  margin: auto;
+}
+.CHmaincontents{
+  gap: 1.5rem;
+  /* margin: auto; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+#viewAllButton{
+  padding: 8px 3.5rem;
+  background-color: rgba(45, 182, 174, 1);
+  color: rgba(255, 255, 255, 1);
+  font-weight: 600;
+  border-radius: 7px;
+  box-sizing: border-box;
+  max-width: 200px;
+  font-size: 13px;
+}
+#agro-section{
+  background-color: #0D857F;
+  height: 300px;
+  margin: 1rem 4rem;
+  padding: 2rem;
+}
+ html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+
+    swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
